@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 33.33%);
+}
+
+.component {
+  border: 1px solid black;
+}
+
+.component img {
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: start;
+}
+
+.header img {
+  width: 150px;
+}
+
+.component {
+  max-width: 150px;
+}
